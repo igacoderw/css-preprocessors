@@ -1,0 +1,14 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "A simple project using Sass",
+  "scripts": {
+    "compile:sass": "node-sass styles.scss styles.css",
+    "watch:sass": "node-sass --watch styles.scss styles.css",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^9.0.0"
+  }
+}
