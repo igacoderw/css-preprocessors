@@ -399,8 +399,3 @@ The real strength of Mixins is their ability to create really intelligent and re
 Sass in summary
 ---
 As you hopefully have seen in this review, Sass has some small hurdles to overcome but the basics are achievable. Starting out with simple concepts like nesting, parent selector definitions and variables will amount to a whole lot of WIN. Then working your way up to Sass math, @extends and @mixins you will soon be a Sass Master.
-
-Want to learn more?
----
-1. [SpeakerDeck](https://speakerdeck.com/anotheruiguy/sass-101-a-newbs-guide)
-1. [CodeRecipez](http://coderecipez.roughdraft.io/)
