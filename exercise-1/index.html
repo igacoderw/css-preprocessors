@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My SASS Webpage</title>
-    <link rel="stylesheet" href="styles.scss"> <!-- This will be the compiled CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- This will be the compiled CSS -->
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="header-link" href="#">Home</a></li>
+            <li><a class="header-link" href="#">About</a></li>
+            <li><a class="header-link" href="#">Portfolio</a></li>
+            <li><a class="header-link" href="#">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Welcome to My Website!</h1>
+        <div class="image-box">
+            <img src="./hacker.jpg" alt="">
+        </div>
+        <h1 class="heading">Welcome to My Website!</h1>
         <p>This is a simple webpage styled using Sass.</p>
     </main>
 </body>

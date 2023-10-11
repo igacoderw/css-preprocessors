@@ -3,6 +3,9 @@ $primary-color: #3498db;
 $secondary-color: #2c3e50;
 $font-family: Arial, sans-serif;
 
+$greenish: #00da66;
+$purple: #6d00da;
+
 // Mixins
 @mixin reset-list {
     margin: 0;
@@ -14,6 +17,15 @@ $font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin image-container($border-color) {
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 16px;
+        border: 3px solid $border-color;
+    }
 }
 
 // Global styles
@@ -64,3 +76,31 @@ main {
         font-size: 1.2em;
     }
 }
+
+.header-link {
+    &:hover {
+        color: $greenish;
+    }
+
+    &:focus {
+        color: red;
+    }
+
+    &:active {
+        color: gray;
+    }
+}
+
+.heading {
+    color: $greenish;
+}
+
+.image-box {
+    @include image-container($purple);
+}
+
+// EXERCISE
+
+// TODO: Add another image and style it using mixins and variables
+
+// Your code should go here!
